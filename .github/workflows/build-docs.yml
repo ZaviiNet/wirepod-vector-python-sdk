@@ -45,7 +45,6 @@ jobs:
       with:
         name: vector-sdk-docs
         path: |
-          .build/html/
-          docs/.build/html/
-          docs/_build/html/
+          docs/build/html/
+          build/html/
         retention-days: 5
